@@ -1,1 +1,40 @@
 /*stylesheet*/
+
+body {
+	margin: 0;
+}
+
+.wrapper {
+	margin: 2em auto;
+	max-width: 1200px;
+}
+
+#masthead {
+	background-color: #e6e6e6;
+}
+
+#nav {
+	background-color: #b6b6b6;
+}
+
+#logo {
+	padding-top: 2em 0;
+}
+
+#logo a {
+	color: var(--body-color);
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#logo svg {
+	width: 20%;
+}
+
+#logo img {
+	width: 20%;
+	height: auto;
+	display: block;
+}
