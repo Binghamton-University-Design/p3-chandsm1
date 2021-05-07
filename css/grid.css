@@ -72,7 +72,7 @@
 
 /* D E S K T O P / L A P T O P */
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
 
   .grid {
     grid-gap: 2rem;
