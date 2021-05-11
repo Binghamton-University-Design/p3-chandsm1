@@ -164,10 +164,7 @@ title
 
 #slider {
   overflow: hidden;
-  margin-bottom: 3rem;
-  margin-top: 3rem;
-  height: 50%;
-  width: auto;
+  margin-bottom: 4rem;
 }
 
 #slider .prev, #slider .next {
@@ -181,14 +178,12 @@ title
   justify-content: center;
 }
 
-.slide img {
-  display: block;
-  width: 100%;
-  height: auto; 
-}
-
 .prev {
   left: 0;
+}
+
+.prev img, .next img {
+  width: 100px !important;
 }
 
 .next {
@@ -197,9 +192,8 @@ title
 
 .prev span, .next span {
   cursor: pointer;
-  display: flex;
-  background: none;
-  color: white;
+  display: block;
+  background: #fff;
 }
 
 #slider img {

@@ -2,6 +2,12 @@
 
 $(document).ready(function() {
 
-console.log('hello');
+console.log('hello there');
+
+$('#slider-inner').slick({
+    infinite: true,
+    prevArrow: $('.prev'),
+    nextArrow: $('.next'),
+  });
 
 });
