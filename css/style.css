@@ -124,6 +124,10 @@ img {
   font-family: 'Nothing You Could Do', regular;
 }
 
+.nav-menu a:hover {
+  color: #lightpink;
+  }
+
 /* Thing */
 
 #thing {
@@ -143,10 +147,27 @@ img {
   
 }
 
+
+title
+
+
+#title {
+  background: transparent;
+  color: purple;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  line-height: 3em; 
+}
+
 /* Slider */
 
 #slider {
   overflow: hidden;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  height: 50%;
+  width: auto;
 }
 
 #slider .prev, #slider .next {
@@ -160,18 +181,47 @@ img {
   justify-content: center;
 }
 
+.slide img {
+  display: block;
+  width: 100%;
+  height: auto; 
+}
+
 .prev {
-	left: 0;
+  left: 0;
 }
 
 .next {
-	right: 0;
+  right: 0;
 }
 
 .prev span, .next span {
-	cursor: pointer;
-	display: block;
-	background: #fff;
+  cursor: pointer;
+  display: flex;
+  background: none;
+  color: white;
+}
+
+#slider img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+/*photo grid*/
+#photos {
+  position: relative;
+  margin-bottom: 2em;
+}
+
+#photos .grid {
+  grid-gap: .5em;
+}
+
+#photos .grid img {
+  margin-bottom: 0;
+  height: auto;
+  width: 100%;
 }
 
 /*home example*/
