@@ -124,9 +124,15 @@ img {
   font-family: 'Nothing You Could Do', regular;
 }
 
-.nav-menu a:hover {
-  color: #lightpink;
-  }
+#nav li a {
+  color: black;
+  transition: all .3s ease-in-out;
+}
+
+#nav li a:hover {
+  color: lightpink;
+  text-decoration: none;
+}
 
 /* Thing */
 
